@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    min-height: 100%;
+    background-image: url("../images/bg-header-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.wrapper {
+    max-width: 900px;
+}
+
+.item-box {
+    background-color: rgb(228, 237, 219);
+}
+
+.list-of-skills {
+    background-color: rgb(196, 227, 233);
+}
+
+.list-of-skills:hover {
+    background-color: azure;
+    transition: 0.4s;
+}
+
+.filter-section {
+    background-color: rgb(197, 206, 178);
+}
+
+.tag-btn {
+    background-color: rgb(196, 227, 233);
+}
+
+.delete-btn {
+    background-color: rgb(155, 190, 197);
+}
+
+.delete-btn:hover {
+    background-color: rgb(32, 87, 79);
+    color: aliceblue;
+    transition: 0.4s;
+}
+
+.clear-btn {
+    color: rgb(32, 87, 79);
+}
+
+.clear-btn:hover {
+    text-decoration: underline;
+}
